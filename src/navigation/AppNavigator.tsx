@@ -25,7 +25,7 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 const AppNavigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="MainTabs" screenOptions={{headerShown: false}}>
+      <Stack.Navigator initialRouteName="StartScreen" screenOptions={{headerShown: false}}>
         <Stack.Screen name="StartScreen" component={StartScreen} />
         <Stack.Screen name="MainTabs" component={TabNavigator} />
         <Stack.Screen name="Detail" component={Detail} />
