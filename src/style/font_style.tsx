@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const style = StyleSheet.create({
     medium: {
-        color: 'black',
+        color: 'white',
     },
     whiteLarge: {
         fontFamily: 'Sora-Bold',
